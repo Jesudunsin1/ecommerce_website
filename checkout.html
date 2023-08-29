@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <section class="checkout">
+        <div class="product-summary">
+            <!-- Display selected products and calculate total price here -->
+        </div>
+        <div class="payment-section">
+            <h2 class="section-title">Payment Details</h2>
+            <form class="payment-form">
+                <!-- Card Number -->
+                <label for="card-number">Card Number</label>
+                <div class="input-group">
+                    <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+                </div>
+                
+                <!-- Expiry Date -->
+                <label for="expiry-date">Expiry Date</label>
+                <div class="input-group">
+                    <input type="text" id="expiry-date" placeholder="MM / YY">
+                </div>
+                
+                <!-- CCV -->
+                <label for="ccv">CCV</label>
+                <div class="input-group">
+                    <input type="text" id="ccv" placeholder="CCV">
+                </div>
+                
+            </form>
+            <div class="checkout-button">
+                <button class="checkout-link">Proceed to Pay</button>
+            </div>
+        </div>
+        
+        
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

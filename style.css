@@ -16,5 +16,29 @@
     background-color: bisque;
   }
 
+   .centered-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 10vh;
+    }
+    
+    .centered-text {
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .icon-link {
+        color: white;
+    }
   
-  
+    .account-link {
+        display: inline-block;
+        margin-left: 10px; 
+           font-weight: bold;
+    }
+
+    .icon-link.blue {
+        color: blue;
+        /* You can customize the blue color using hex or RGB values */
+    }
